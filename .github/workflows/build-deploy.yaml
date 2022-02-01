@@ -14,7 +14,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           yarn
-          yarn build -- --base=/goi-subtitles
+          yarn build --base="/goi-subtitles/"
 
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
