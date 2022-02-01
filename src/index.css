@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  /* font-family: 'Noto Sans Japanese', sans-serif; */
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-width: 38rem) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}

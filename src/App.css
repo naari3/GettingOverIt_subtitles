@@ -1,0 +1,20 @@
+.App {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 38rem) {
+  .App {
+    max-width: 80%;
+  }
+}
+
+.App-JsonLink {
+  font-size: 1rem;
+  float: right;
+}
+
+.App-CheckBox {
+  display: inline-block;
+  margin: 0 5px;
+}

@@ -744,6 +744,18 @@
     }
   },
   {
+    "Term": "DIALOG_10",
+    "TermType": 0,
+    "Description": "",
+    "Languages": {
+      "en": "Maybe this is what this digital culture is.\nA monstrous mountain of trash,\nthe ash-heap of creativity's fountain.\nA landfill with everything we ever thought of in it\nGrand, infinite, and unsorted.",
+      "ru": "Может это и есть эта цифровая культура.\nЧудовищная гора мусора,\nкуча пепла от фонтана творчества.\nСвалка, где есть всё, о чём мы когда-либо подумали\nВеликая, бесконечная и беспорядочная",
+      "ja": "多分これは、このデジタル文化があるものです。\nゴミの巨大な山、\n創造性の噴水の灰ヒープ。\n私たちが今までそれで考えるすべてのものとの埋立\nグランド無限、およびソートされていません。",
+      "zn-CH": "也许这就是数字文化。\n 一个巨大的垃圾山，\n 也是创造力源泉的灰堆。\n 这个垃圾填埋场，拥有着我们所能想到的所有东西，\n 巨大，无穷，无序。",
+      "ko": "어쩌면 이런 것들이 디지털 문화입니다. \n괴물 같은 쓰레기 산, 창의적인 분수대의 화산재 더미, \n우리가 생각한 모든 것을 담고 있는 매립지; \n크고, 무한하고 무궁무진한."
+    }
+  },
+  {
     "Term": "DIALOG_11",
     "TermType": 0,
     "Description": "Also, wherever a native speaker would prefer the English pop-culture phrase, it's fine to use it.",
@@ -1881,18 +1893,6 @@
       "ja": "お土産店",
       "zn-CH": "纪念品商店",
       "ko": "기념품 가게"
-    }
-  },
-  {
-    "Term": "DIALOG_10",
-    "TermType": 0,
-    "Description": "",
-    "Languages": {
-      "en": "Maybe this is what this digital culture is.\nA monstrous mountain of trash,\nthe ash-heap of creativity's fountain.\nA landfill with everything we ever thought of in it\nGrand, infinite, and unsorted.",
-      "ru": "Может это и есть эта цифровая культура.\nЧудовищная гора мусора,\nкуча пепла от фонтана творчества.\nСвалка, где есть всё, о чём мы когда-либо подумали\nВеликая, бесконечная и беспорядочная",
-      "ja": "多分これは、このデジタル文化があるものです。\nゴミの巨大な山、\n創造性の噴水の灰ヒープ。\n私たちが今までそれで考えるすべてのものとの埋立\nグランド無限、およびソートされていません。",
-      "zn-CH": "也许这就是数字文化。\n 一个巨大的垃圾山，\n 也是创造力源泉的灰堆。\n 这个垃圾填埋场，拥有着我们所能想到的所有东西，\n 巨大，无穷，无序。",
-      "ko": "어쩌면 이런 것들이 디지털 문화입니다. \n괴물 같은 쓰레기 산, 창의적인 분수대의 화산재 더미, \n우리가 생각한 모든 것을 담고 있는 매립지; \n크고, 무한하고 무궁무진한."
     }
   },
   {
