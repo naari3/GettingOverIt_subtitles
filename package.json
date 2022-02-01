@@ -1,5 +1,5 @@
 {
-  "name": "goi_subtitles",
+  "name": "goi-subtitles",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

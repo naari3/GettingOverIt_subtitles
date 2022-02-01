@@ -40,7 +40,7 @@ function App() {
         <h1>Getting Over It Subtitles</h1>
         <span className="App-JsonLink">
           <a
-            href="https://raw.githubusercontent.com/naari3/goi_subtitles/main/data.json"
+            href="https://raw.githubusercontent.com/naari3/goi-subtitles/main/data.json"
             target={"_blank"}
           >
             raw json here
