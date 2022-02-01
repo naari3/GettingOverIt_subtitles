@@ -15,7 +15,7 @@ function App() {
   const [enableCondolence, setEnableCondolence] = useState(true);
   const [enableDialog, setEnableDialog] = useState(true);
   const [enableObservation, setEnableObservation] = useState(true);
-  const [enableEtc, setEnableEtc] = useState(true);
+  const [enableEtc, setEnableEtc] = useState(false);
 
   const [targets, setTargets] = useState(ALL);
 
