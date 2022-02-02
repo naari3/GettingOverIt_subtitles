@@ -4,13 +4,14 @@ import Term from "./Term";
 import "./App.css";
 
 const ALL = Array.from(data);
+const someIncludes = (strs: readonly string[], str: string) => strs.some(s => s.includes(str));
 
 function App() {
-  const [enableEn, setEnableEn] = useState(true);
-  const [enableRu, setEnableRu] = useState(true);
-  const [enableJa, setEnableJa] = useState(true);
-  const [enableZnCH, setEnableZnCH] = useState(true);
-  const [enableKo, setEnableKo] = useState(true);
+  const [enableEn, setEnableEn] = useState(someIncludes(navigator.languages, 'en'));
+  const [enableRu, setEnableRu] = useState(someIncludes(navigator.languages, 'ru'));
+  const [enableJa, setEnableJa] = useState(someIncludes(navigator.languages, 'ja'));
+  const [enableZnCH, setEnableZnCH] = useState(someIncludes(navigator.languages, 'zh'));
+  const [enableKo, setEnableKo] = useState(someIncludes(navigator.languages, 'ko'));
 
   const [enableCondolence, setEnableCondolence] = useState(true);
   const [enableDialog, setEnableDialog] = useState(true);
@@ -21,14 +22,15 @@ function App() {
 
   useEffect(() => {
     const targets = ALL.filter((term) => {
+      const isCondolence = term.Term.startsWith("CONDOLENCE_");
+      const isDialog = term.Term.startsWith("DIALOG_");
+      const isObservation = term.Term.startsWith("OBSERVATION_");
+
       return (
-        (!term.Term.startsWith("CONDOLENCE_") || enableCondolence) &&
-        (!term.Term.startsWith("DIALOG_") || enableDialog) &&
-        (!term.Term.startsWith("OBSERVATION_") || enableObservation) &&
-        (term.Term.startsWith("CONDOLENCE_") ||
-          term.Term.startsWith("DIALOG_") ||
-          term.Term.startsWith("OBSERVATION_") ||
-          enableEtc)
+        (!isCondolence || enableCondolence) &&
+        (!isDialog || enableDialog) &&
+        (!isObservation || enableObservation) &&
+        (isCondolence || isDialog || isObservation || enableEtc)
       );
     });
     setTargets(targets);
